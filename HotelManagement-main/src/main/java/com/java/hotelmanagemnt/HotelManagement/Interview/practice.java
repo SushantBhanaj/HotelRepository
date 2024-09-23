@@ -15,5 +15,6 @@ public class practice {
                 .filter(n -> n.getValue() > 1)
                 .map(Map.Entry::getKey).collect(Collectors.toList());
         System.out.println(collect);
+        System.out.println(collect);
     }
 }
